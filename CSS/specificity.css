@@ -1,0 +1,17 @@
+/*specificity 
+ul#summer-drinks li.favo{
+    color:red;
+    font-weight: bold;
+}
+
+ul#summer-drinks li {
+    font-size: 12px;
+    color:black;
+    font-weight: normal;
+} */
+.favo{
+    color:red;
+}
+.favo{
+    color:aqua;
+}

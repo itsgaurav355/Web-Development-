@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance demo</title>
+    <style>
+        body{
+            color:blue;
+        }
+        .inherited a{
+            /* takes value from the parent */
+            color: inherit;
+        }
+        .Initialy a{
+            /* set to the default value  */
+            color: initial;
+        }
+        .unset a{
+            /* set to deafult or parent acc to preferenece */
+            color: unset;
+        }
+       
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Default <a href="#">theme1</a>color</li>
+        <li class="inherited">Inherited <a href="#">theme2</a>color</li>
+        <li  class="Initialy"> Initial<a href="#">theme3</a>color</li>
+        <li  class="unset">Unset <a href="#">theme4</a>color</li>
+       
+    </ul>
+    
+</body>
+</html>

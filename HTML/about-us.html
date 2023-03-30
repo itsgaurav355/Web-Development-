@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Challenge</title>
+    <style>
+        body{
+            font-family: cursive;
+            display: flex;
+            background-color: aqua;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            text-align: justify;
+        }
+        .box{
+            display: flex;
+            flex-direction:column;
+            align-items:flex-start ;
+            border: 3px solid black;
+            height:fit-content;
+            width: 30%;
+            float: left;
+            overflow: hidden;
+            padding:10px;
+            margin:10px;
+            border-radius: 10px;
+            background-color: aquamarine;
+
+        }
+    
+        img{
+            object-fit:fill;
+            height:100%;
+            width:100%;
+            border-radius: 5px;
+            
+        }
+        h2{
+            color: lightcoral;
+        }
+        .submit{
+            background-color: aqua;
+            border-radius: 5px;
+            padding:12px 20px;
+            border: none;
+            cursor: pointer;
+            width:100%;
+        }
+       .submit:hover{
+            background-color:lightseagreen;
+        }
+        h1{
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div >
+            <h1 >Welcome to Marvel World</h1>
+        </div>
+        <div class="box">
+            <img src="/imgs/myimg.jpg" alt="Image" height="200px";>
+            <h2>Ironman</h2>
+            <p>A wealthy American business magnate, playboy, philanthropist, inventor and ingenious scientist, Anthony Edward "Tony" Stark suffers a severe chest injury during a kidnapping. When his captors attempt to force him to build a weapon of mass destruction, he instead creates a mechanized suit of armor to save his life . </p>
+            <button type="submit" height="200" class="submit">More Details</button>
+        </div>
+        <div class="box">
+            <img src="/imgs/img_10.png" alt="Image" height="200px";>
+            <h2>Almighty Thor</h2>
+            <p>The very skies tremble in his presence. He commands the mystical hammer Mjolnir to protect Asgard and Earth. He is the son of Odin, Prince of Asgard. He is the God of Thunder. He is Thor.</p>
+            <button type="submit" class="submit">More Details</button>
+        </div>
+        <div class="box">
+            <img src="/imgs/img_10.png" alt="Image" height="200px";>
+            <h2>Almighty Thor</h2>
+            <p>The very skies tremble in his presence. He commands the mystical hammer Mjolnir to protect Asgard and Earth. He is the son of Odin, Prince of Asgard. He is the God of Thunder. He is Thor.</p>
+            <button type="submit" class="submit">More Details</button>
+        </div>
+    </div>
+</body>
+</html>

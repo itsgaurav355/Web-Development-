@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="/CSS/form.css">
+</head>
+<body>
+    <div class="container">
+    <form action="" method="get">
+        <h1 class="main_heading">Payment form</h1>
+        <p>Required fields are followed by *</p>
+        <hr>
+        <h2>User Information</h2>
+        <p>Name: *
+            <input type="text" required name="name" placeholder="Gaurav">
+        </p>
+       
+            <!-- for wrapping the radio button we used fieldset -->
+        <fieldset> 
+            <!-- legend is used for specifying the type of rtadio button -->
+            <legend>Gender *</legend>
+            <p>
+                Male <input type="radio" name="gender" id="male" required> Female <input type="radio" name="gender" id="female" required>  
+            </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="100"  rows="5" t></textarea></p>
+        <p>Email: * <input type="email" placeholder="Email" name="email" id="email" required> </p>
+        <p>Pincode: *<input type="number" name="pincode" id="pincode" required></p>
+        <h2>Payment Information</h2>
+        <p>Card Type: *
+            <!-- for dropdown menu select-->
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select a Card Type--</option>
+                <option value="Visa">Visa</option>
+                <option value="gpay">Google pay</option>
+                <option value="masterCard">Master Card</option>
+                <option value="paytm">Paytm</option>
+            </select>
+        </p>
+        <p>
+            Card Number *<input type="number" name="card_number" id="card_number" required>
+        </p>
+        <p>
+            Expiration Date: *<input type="date" name="exp_date" id="exp_date" required>
+        </p>
+        <p>CVV *<input type="password" name="cvv" id="cvv" required></p>
+        <input type="submit" value="Pay Now">
+       
+
+
+    </form>
+</div>
+</body>
+</html>

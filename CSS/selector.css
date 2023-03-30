@@ -1,0 +1,62 @@
+/* element selector
+h1{
+    color: red;
+}
+*/
+/* Class Selector 
+.special{
+    color: rgb(15, 177, 236);
+}
+*/
+/*
+span.special , li.special{
+    color: blue;
+    font-weight: bold;
+}
+*/
+/* descendent combinator (Select its child)
+li em{
+    color:rebeccapurple;
+}
+ */
+ /* Adjecent combinator (next to the selected one) 
+ h1+p{
+    font-size: 200%;
+ }
+ */
+ /* pseudoclass selector 
+ a:hover{
+    color: palevioletred;
+    text-decoration: none;
+ }
+ */
+ /* selecting a child with grandparent relation  
+ body h1+p .special{
+    color: aqua;
+    background-color: black;
+    padding: 5px;
+ }
+ */
+ /* id selector
+ #king{
+    color: rgb(233, 108, 108);
+ }
+  */
+  /* Attribute selector 
+li[class]{
+    font-size: 300%;
+    color:blue;
+  }
+li[class~="special"]{
+    font-size: 300%;
+    color:blue;
+}*/
+/* Universal Selector */
+*{
+    list-style-type:lower-greek ;
+}
+body{
+    background-image: linear-gradient(aquamarine,white,aqua);
+   
+
+}
